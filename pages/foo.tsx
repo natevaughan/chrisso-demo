@@ -1,5 +1,5 @@
 import React from "react";
-import MyGreeting from "./components/MyGreeting";
+import MyGreeting from "../components/MyGreeting";
 
 export default function Home() {
   return (

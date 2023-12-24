@@ -4,7 +4,7 @@ interface MyGreetingProps {
   name: string
 }
 
-const MyGreeting = ({name}) => {
+const MyGreeting = ({name}: MyGreetingProps) => {
   return (
     <div>Hello, {name}</div>
   )
