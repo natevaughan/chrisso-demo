@@ -1,4 +1,5 @@
 import * as React from "react"
+import MyAlert from "./MyAlert";
 
 interface MyGreetingProps {
   name: string
@@ -6,7 +7,10 @@ interface MyGreetingProps {
 
 const MyGreeting = ({name}: MyGreetingProps) => {
   return (
-    <div>Hello, {name}</div>
+    <div>
+      <div>Hello, {name}</div>
+      <MyAlert />
+    </div>
   )
 }
 
